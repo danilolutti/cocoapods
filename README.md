@@ -30,7 +30,7 @@ Follow these steps to create, make executable, and run the installation script:
    cd path/to/your/directory
    ```
 
-3. Create a new file named `install_cocoapods_with_flutter.sh` using a text editor like **nano**:
+3. Create a new file named `install_cocoapods.sh` using a text editor like **nano**:
    ```bash
    nano install_cocoapods_with_flutter.sh
    ```
@@ -46,14 +46,14 @@ Follow these steps to create, make executable, and run the installation script:
 
 1. In the terminal, run the following command to make the script executable:
    ```bash
-   chmod +x install_cocoapods_with_flutter.sh
+   chmod +x install_cocoapods.sh
    ```
 
 ### Step 4: Run the script
 
 1. Run the script by executing the following command in the terminal:
    ```bash
-   ./install_cocoapods_with_flutter.sh
+   ./install_cocoapods.sh
    ```
 
 2. Follow the on-screen prompts as the script installs Homebrew, rbenv, Ruby 3.2, and CocoaPods, and sets up Flutter.
